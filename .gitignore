@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+.env
+.vscode/
+.pytest_cache/
+.pytest_temp/
+*.db
+*.sqlite3
+instance/
+
+# Arquivos de cobertura de teste
+.coverage
+coverage.xml
+coverage.md
+htmlcov/

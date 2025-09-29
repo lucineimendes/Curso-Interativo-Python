@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block title %}Curso de Python: Do Básico ao Avançado{% endblock %}
+
+{% block content %}
+<div class="jumbotron bg-light p-5 rounded">
+    <h1 class="display-4">Aprenda Python: Do Básico ao Avançado</h1>
+    <p class="lead">
+        Bem-vindo à nossa plataforma de aprendizado de Python! Aqui você encontrará cursos completos
+        que vão desde os conceitos básicos até tópicos avançados, com exercícios práticos e um editor
+        de código integrado para testar seus conhecimentos.
+    </p>
+    <hr class="my-4">
+    <p>
+        Escolha um dos nossos cursos abaixo para começar sua jornada de aprendizado em Python.
+    </p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('list_courses_page') }}" role="button">Ver Cursos</a>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-12">
+        <h2 class="mb-4">Nossos Cursos</h2>
+    </div>
+    
+    {% for course in courses %}
+    <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 d-flex flex-column">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">{{ course.name }}</h5>
+                <p class="card-text">{{ course.short_description }}</p>
+                <p><span class="badge bg-primary">{{ course.level }}</span></p>
+                <p><small class="text-muted">Duração: {{ course.duration }}</small></p>
+                <!-- Barra de Progresso -->
+                <div class="progress mt-3" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: {{ course.progress|default(0) }}%;" aria-valuenow="{{ course.progress|default(0) }}" aria-valuemin="0" aria-valuemax="100">
+                        {{ course.progress|default(0)|round|int }}%
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer mt-auto">
+                <a href="{{ url_for('course_detail_page', course_id=course.id) }}" class="btn btn-primary">Iniciar Curso</a>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="col-md-12">
+        <div class="alert alert-info">
+            Nenhum curso disponível no momento. Volte em breve!
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-6">
+        <h3>Por que aprender Python?</h3>
+        <ul class="list-group">
+            <li class="list-group-item">Linguagem de programação versátil e poderosa</li>
+            <li class="list-group-item">Sintaxe clara e legível, ideal para iniciantes</li>
+            <li class="list-group-item">Ampla adoção em diversas áreas: web, ciência de dados, IA, automação</li>
+            <li class="list-group-item">Grande comunidade e vasto ecossistema de bibliotecas</li>
+            <li class="list-group-item">Alta demanda no mercado de trabalho</li>
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h3>Recursos da Plataforma</h3>
+        <ul class="list-group">
+            <li class="list-group-item">Lições estruturadas e progressivas</li>
+            <li class="list-group-item">Exercícios práticos com feedback imediato</li>
+            <li class="list-group-item">Editor de código integrado para testar seus conhecimentos</li>
+            <li class="list-group-item">Exemplos de código e projetos práticos</li>
+            <li class="list-group-item">Conteúdo atualizado e alinhado com as melhores práticas</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

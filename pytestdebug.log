@@ -1,0 +1,922 @@
+versions pytest-8.4.2, python-3.13.5.final.0
+invocation_dir=I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python
+cwd=I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python
+args=('--collect-only', '-vvv', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001C2D50FCC20>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001C2D50FD400>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+    early skip of rewriting module: rlcompleter [assertion]
+    early skip of rewriting module: readline [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+          plugin_name: 1936272311696
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_cov.plugin' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\pytest_cov\\plugin.py'>
+          plugin_name: pytest_cov
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001C2D2DE3A10>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001C2D2E5C2D0>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_cov.plugin.CovPlugin object at 0x000001C2D2ED8050>
+          plugin_name: _cov
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\tests\\conftest.py'>
+          plugin_name: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001C2D50FCC20>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001C2D50FD400>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001C2D50FE7B0>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001C2D50FF8C0>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+          plugin_name: 1936272311696
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_cov.plugin' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\pytest_cov\\plugin.py'>
+          plugin_name: pytest_cov
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001C2D2DE3A10>' mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<EncodedFile name='<tempfile._TemporaryFileWrapper object at 0x000001C2D2E5C2D0>' mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <pytest_cov.plugin.CovPlugin object at 0x000001C2D2ED8050>
+          plugin_name: _cov
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\tests\\conftest.py'>
+          plugin_name: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x000001C2D50FCC20>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x000001C2D50FD400>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x000001C2D50FE7B0>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x000001C2D50FF8C0>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x000001C2D523C6E0>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x000001C2D2D2C590>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+          start_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python
+          startdir: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python
+      early skip of rewriting module: importlib.metadata._adapters [assertion]
+      early skip of rewriting module: email.message [assertion]
+      early skip of rewriting module: quopri [assertion]
+      early skip of rewriting module: email.utils [assertion]
+      early skip of rewriting module: urllib [assertion]
+      early skip of rewriting module: urllib.parse [assertion]
+      early skip of rewriting module: ipaddress [assertion]
+      early skip of rewriting module: email._parseaddr [assertion]
+      early skip of rewriting module: email.errors [assertion]
+      early skip of rewriting module: email._policybase [assertion]
+      early skip of rewriting module: email.header [assertion]
+      early skip of rewriting module: email.quoprimime [assertion]
+      early skip of rewriting module: email.base64mime [assertion]
+      early skip of rewriting module: email.charset [assertion]
+      early skip of rewriting module: email.encoders [assertion]
+      early skip of rewriting module: email._encoded_words [assertion]
+      early skip of rewriting module: email.iterators [assertion]
+      early skip of rewriting module: importlib.metadata._text [assertion]
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      finish pytest_report_header --> [['rootdir: I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python', 'configfile: pytest.ini', 'testpaths: tests', 'plugins: cov-7.0.0'], 'cachedir: .pytest_cache', ['using: pytest-8.4.2', 'registered third-party plugins:', '  pytest-cov-7.0.0 at I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\.venv\\Lib\\site-packages\\pytest_cov\\plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['tests'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=WindowsPath('I:/Meu Drive/Projetos Python/GEMINI/Curso-Interartivo-Python/tests'), parts=[], module_name=None) [collection]
+            pytest_collect_directory [hook]
+                path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir Curso-Interartivo-Python> [hook]
+            pytest_collectstart [hook]
+                collector: <Dir Curso-Interartivo-Python>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Dir Curso-Interartivo-Python>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.amazonq
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.amazonq
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.git
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.git
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.gitignore
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.gitignore
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.gitignore
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.gitignore
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.pytest_cache
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.pytest_cache
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.venv
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\.venv
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\LICENSE.md
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\LICENSE.md
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\LICENSE.md
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\LICENSE.md
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\README.md
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\README.md
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\README.md
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\README.md
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\__pycache__
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\__pycache__
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\compras.txt
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\compras.txt
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\compras.txt
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\compras.txt
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\coverage.xml
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\coverage.xml
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\coverage.xml
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\coverage.xml
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\estrutura.txt
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\estrutura.txt
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\estrutura.txt
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\estrutura.txt
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\generate_coverage_report.py
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\generate_coverage_report.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\generate_coverage_report.py
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\generate_coverage_report.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\htmlcov
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\htmlcov
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\htmlcov
+                  parent: <Dir Curso-Interartivo-Python>
+              finish pytest_collect_directory --> <Dir htmlcov> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\images
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\images
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\images
+                  parent: <Dir Curso-Interartivo-Python>
+              finish pytest_collect_directory --> <Dir images> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\projects
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\projects
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\projects
+                  parent: <Dir Curso-Interartivo-Python>
+              finish pytest_collect_directory --> <Package projects> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\pytest.ini
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\pytest.ini
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\pytest.ini
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\pytest.ini
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\pytestdebug.log
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\pytestdebug.log
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\pytestdebug.log
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\pytestdebug.log
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\requirements-dev.txt
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\requirements-dev.txt
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\requirements-dev.txt
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\requirements-dev.txt
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\requirements.txt
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\requirements.txt
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\requirements.txt
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\requirements.txt
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\run.py
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\run.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\run.py
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\run.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+                  collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\test_run.log
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\test_run.log
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Curso-Interartivo-Python>
+                  file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\test_run.log
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\test_run.log
+              finish pytest_collect_file --> [] [hook]
+              pytest_collect_directory [hook]
+                  path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests
+                  parent: <Dir Curso-Interartivo-Python>
+              finish pytest_collect_directory --> <Dir tests> [hook]
+            finish pytest_make_collect_report --> <CollectReport '.' lenresult=4 outcome='passed'> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Dir tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir tests>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+            collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\__pycache__
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+            collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\conftest.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\conftest.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\conftest.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\conftest.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+            collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_api.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_api.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_api.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_api.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_api.py
+              path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_api.py
+          finish pytest_pycollect_makemodule --> <Module test_api.py> [hook]
+        finish pytest_collect_file --> [<Module test_api.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+            collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_app.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_app.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_app.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_app.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_app.py
+              path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_app.py
+          finish pytest_pycollect_makemodule --> <Module test_app.py> [hook]
+        finish pytest_collect_file --> [<Module test_app.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+            collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_exercise_manager.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_exercise_manager.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_exercise_manager.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_exercise_manager.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_exercise_manager.py
+              path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_exercise_manager.py
+          finish pytest_pycollect_makemodule --> <Module test_exercise_manager.py> [hook]
+        finish pytest_collect_file --> [<Module test_exercise_manager.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+            collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_lesson_manager.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_lesson_manager.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_lesson_manager.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_lesson_manager.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_lesson_manager.py
+              path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_lesson_manager.py
+          finish pytest_pycollect_makemodule --> <Module test_lesson_manager.py> [hook]
+        finish pytest_collect_file --> [<Module test_lesson_manager.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+            collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_managers.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_managers.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_managers.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_managers.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_managers.py
+              path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_managers.py
+          finish pytest_pycollect_makemodule --> <Module test_managers.py> [hook]
+        finish pytest_collect_file --> [<Module test_managers.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+            collection_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_meta_exercise.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_meta_exercise.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_meta_exercise.py
+            path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_meta_exercise.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_meta_exercise.py
+              path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_meta_exercise.py
+          finish pytest_pycollect_makemodule --> <Module test_meta_exercise.py> [hook]
+        finish pytest_collect_file --> [<Module test_meta_exercise.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=6 outcome='passed'> [hook]
+    genitems <Module test_api.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_api.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_api.py>
+      find_module called for: test_api [assertion]
+      matched test file 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\tests\\test_api.py' [assertion]
+      found cached rewritten pyc for I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_api.py [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_api.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_api.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_app.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_app.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_app.py>
+      find_module called for: test_app [assertion]
+      matched test file 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\tests\\test_app.py' [assertion]
+      found cached rewritten pyc for I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_app.py [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_app.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_app.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_exercise_manager.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_exercise_manager.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_exercise_manager.py>
+      find_module called for: test_exercise_manager [assertion]
+      matched test file 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\tests\\test_exercise_manager.py' [assertion]
+      found cached rewritten pyc for I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_exercise_manager.py [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_exercise_manager.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_exercise_manager.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_lesson_manager.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_lesson_manager.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_lesson_manager.py>
+      find_module called for: test_lesson_manager [assertion]
+      matched test file 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\tests\\test_lesson_manager.py' [assertion]
+      found cached rewritten pyc for I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_lesson_manager.py [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_lesson_manager.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_lesson_manager.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_managers.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_managers.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_managers.py>
+      find_module called for: test_managers [assertion]
+      matched test file 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\tests\\test_managers.py' [assertion]
+      found cached rewritten pyc for I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_managers.py [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_managers.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_managers.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_meta_exercise.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_meta_exercise.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_meta_exercise.py>
+      find_module called for: test_meta_exercise [assertion]
+      matched test file 'I:\\Meu Drive\\Projetos Python\\GEMINI\\Curso-Interartivo-Python\\tests\\test_meta_exercise.py' [assertion]
+      found cached rewritten pyc for I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python\tests\test_meta_exercise.py [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_meta_exercise.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_meta_exercise.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests' lenresult=6 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+          items: []
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+            items: []
+            start_path: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python
+            startdir: I:\Meu Drive\Projetos Python\GEMINI\Curso-Interartivo-Python
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    finish pytest_runtestloop --> None [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=<ExitCode.NO_TESTS_COLLECTED: 5> testsfailed=0 testscollected=0>
+        exitstatus: 5
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x000001C2D50FE7B0>
+          exitstatus: 5
+          config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x000001C2D2D2EE40>
+    finish pytest_unconfigure --> [] [hook]
