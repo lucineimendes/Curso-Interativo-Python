@@ -9,7 +9,7 @@ if __name__ == '__main__':
     # ou confiar na configuração dentro de projects/app.py
     # Exemplo: app_logger.setLevel(logging.DEBUG)
     host = '0.0.0.0'
-    port = int(os.environ.get('PORT',5000)
+    port = int(os.environ.get('PORT',5000))
     
     app_logger.info("Iniciando servidor de desenvolvimento Flask a partir de run.py.")
     print("\n" + "="*80)
